@@ -1,0 +1,66 @@
+body {
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: white;
+    height: 500px;
+    width: 800px;
+    position: relative;
+
+    .game {
+        /* display: none; */
+
+        .content {
+            padding: 50px;
+
+            h1 {
+                font-size: 40px;
+            }
+
+            .answers {
+                .answer {
+                    font-size: 25px;
+                    margin-bottom: 12px;
+                }
+            }
+        }
+
+        .submit {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 50px;
+            border: none;
+            background-color: cornflowerblue;
+            cursor: pointer;
+            color: white;
+        }
+    }
+
+    .result {
+        display: none;
+        padding: 50px;
+        text-align: center;
+        h1{
+            font-size: 50px;
+        }
+        .correct{
+            color: green;
+        }
+        .wrong{
+            color: red;
+        }
+        .play{
+            background-color: cornflowerblue;
+            cursor: pointer;
+            padding: 10px;
+            border: none;
+            color: white;
+        }
+    }
+
+}
